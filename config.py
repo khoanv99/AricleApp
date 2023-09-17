@@ -19,7 +19,7 @@ class Config(object):
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'dbudacity.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'dbudacity'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'dbname'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'dbudacity'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Ahihicode@123'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
